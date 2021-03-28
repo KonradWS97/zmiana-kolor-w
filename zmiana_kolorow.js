@@ -14,6 +14,14 @@ czerwony.addEventListener("click", function(c)
    if(!isshow){
     plakatCzerwony.style.display="block";
    }
+   if(plakatCzerwony.style.display="block")
+   {
+    plakatNiebieski.style.display="none";
+   }
+   if(plakatCzerwony.style.display="block")
+   {
+    plakatBialy.style.display="none";
+   }
 })
 let bialy = document.getElementById("przycisk_bialy")
 let zmianaKoloru1 = document.getElementById("box1")
@@ -30,7 +38,14 @@ bialy.addEventListener("click", function(c)
    if(!isshow){
     plakatBialy.style.display="block";
    }
-    
+   if(plakatBialy.style.display="block")
+   {
+    plakatNiebieski.style.display="none";
+   }
+   if(plakatBialy.style.display="block")
+   {
+    plakatCzerwony.style.display="none";
+   }
 })
 let niebieski = document.getElementById("przycisk_niebieski")
 let zmianaKoloru2 = document.getElementById("box1")
@@ -47,7 +62,14 @@ niebieski.addEventListener("click", function(c)
    if(!isshow){
     plakatNiebieski.style.display="block";
    }
-    
+   if(plakatNiebieski.style.display="block")
+   {
+    plakatBialy.style.display="none";
+   }
+   if(plakatNiebieski.style.display="block")
+   {
+    plakatCzerwony.style.display="none";
+   }
 
 
 })
