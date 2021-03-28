@@ -10,7 +10,7 @@ czerwony.addEventListener("click", function(c)
     console.log("clik")
     isshow=!isshow;
     plakatCzerwony.style.display="none";
-   
+   // branch zmiana 
    if(!isshow){
     plakatCzerwony.style.display="block";
    }
